@@ -1,5 +1,5 @@
 #Build node image from Node Docker Hub
-FROM node:alpine3.10
+FROM node:latest
 
 #Make app directory in container
 RUN mkdir /app
